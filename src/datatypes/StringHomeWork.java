@@ -12,7 +12,7 @@ public class StringHomeWork {
         System.out.println(str);
         System.out.println(str1);
 
-        System.out.println(str+str1);
+        System.out.println(str.concat(str1));
 
         System.out.println(str.substring(0,3));
         System.out.println(str.replace('l', 'i'));
@@ -29,7 +29,7 @@ public class StringHomeWork {
 
         for(String string : strings){
 
-            System.out.println("Split value is " + str2);
+            System.out.println("Split value is " + string);
         }
 
 
