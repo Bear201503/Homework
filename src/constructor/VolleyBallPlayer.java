@@ -28,6 +28,8 @@ public class VolleyBallPlayer {
         VolleyBallPlayer volleyBallPlayer2 = new VolleyBallPlayer("Bear", "male", 2, 3);
         System.out.println(volleyBallPlayer2.name+", " + volleyBallPlayer2.gender+", " + volleyBallPlayer2.jerseyNumber+", " + volleyBallPlayer2.pointsScored);
 
+        VolleyBallPlayer volleyBallPlayer3 = new VolleyBallPlayer();
+
         volleyBallPlayer.setPointsScored(5);
         System.out.println(volleyBallPlayer.name+", " + volleyBallPlayer.gender+", " + volleyBallPlayer.jerseyNumber+", " + volleyBallPlayer.pointsScored);
 
