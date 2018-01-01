@@ -10,7 +10,14 @@ public class Recap {
         for(int i = 10; i>=1; i--){
             System.out.println(i);
         }
+
+        for(int i = 11; i<=20; i++){
+            System.out.println(i);
+        }
+        for(int i = 20; i>=11; i--){
+            System.out.println(i);
+        }
     }
-    private String hello;
+
 
 }
